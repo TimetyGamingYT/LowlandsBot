@@ -1,2 +1,2 @@
-# VHBot
-Vurtuality Hosting - discord.js bot
+# LLBot
+Lowlands discord bot - discord.js bot

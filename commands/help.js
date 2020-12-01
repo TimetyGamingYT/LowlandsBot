@@ -14,8 +14,6 @@ module.exports.run = async (client, message, args) => {
     .addField(`\`${config.prefix}tempmute\``, 'Tempmute iemand.')
     .addField(`\`${config.prefix}unmute\``, 'Unmute iemand.')
     .addField(`\`${config.prefix}purge\``, 'Verwijder berichten.')
-    .addField(`\`${config.prefix}ticket\``, 'Maak een ticket aan.')
-    .addField(`\`${config.prefix}sluit\``, 'Sluit een ticket.')
     .setColor("#004b96")
     .setFooter("LowLands", client.user.displayAvatarURL())
     .setTimestamp();
