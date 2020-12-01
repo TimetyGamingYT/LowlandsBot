@@ -17,7 +17,7 @@ module.exports.run = async (client, message, args) => {
     .addField(`\`${config.prefix}ticket\``, 'Maak een ticket aan.')
     .addField(`\`${config.prefix}sluit\``, 'Sluit een ticket.')
     .setColor("#004b96")
-    .setFooter("TestServer", client.user.displayAvatarURL())
+    .setFooter("LowLands", client.user.displayAvatarURL())
     .setTimestamp();
 
     message.channel.send(helpEmbed);

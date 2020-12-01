@@ -30,10 +30,10 @@ client.on('guildMemberAdd', member => {
 
     const joinEmbed = new Discord.MessageEmbed()
     .setTitle(`**Welkom ${member.user.tag}!**`)
-    .setDescription('Welkom op de TestServer discord.\n Mocht je vragen hebben kan je altijd een ticket aanmaken.')
+    .setDescription('Welkom op de LowLands discord.\n Mocht je vragen hebben kan je altijd een ticket aanmaken.')
     .setThumbnail(member.user.displayAvatarURL())
     .setColor("#004b96")
-    .setFooter("TestServer", client.user.displayAvatarURL())
+    .setFooter("LowLands", client.user.displayAvatarURL())
     .setTimestamp();
 
     channel.send(joinEmbed);

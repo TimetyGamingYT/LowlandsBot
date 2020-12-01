@@ -15,7 +15,7 @@ module.exports.run = async (client, message, args) => {
         .setTitle('Ticket gesloten')
         .setDescription('Dit ticket is gesloten.')
         .setColor("#004b96")
-        .setFooter('TestServer')
+        .setFooter('LowLands')
         .setTimestamp();
 
     let ticketName = message.guild.channels.cache.get(message.channel.id);
