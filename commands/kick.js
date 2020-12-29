@@ -13,7 +13,7 @@ module.exports.run = async (client, message, args) => {
     .addField("Gekickt door:", message.author)
     .addField("Reden:", kReason)
     .setColor("#004b69")
-    .setFooter("LowLands", client.user.displayAvatarURL())
+    .setFooter("Fivem Server", client.user.displayAvatarURL())
     .setTimestamp();
 
     message.delete();

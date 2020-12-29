@@ -30,10 +30,10 @@ client.on('guildMemberAdd', member => {
 
     const joinEmbed = new Discord.MessageEmbed()
     .setTitle(`**Welkom ${member.user.tag}!**`)
-    .setDescription('Welkom op de LowLands discord.\n Mocht je vragen hebben kan je altijd een ticket aanmaken.')
+    .setDescription('Welkom op de Fivem Server discord.\n Mocht je vragen hebben kan je altijd een ticket aanmaken.')
     .setThumbnail(member.user.displayAvatarURL())
     .setColor("#004b96")
-    .setFooter("LowLands", client.user.displayAvatarURL())
+    .setFooter("Fivem Server", client.user.displayAvatarURL())
     .setTimestamp();
 
     channel.send(joinEmbed);

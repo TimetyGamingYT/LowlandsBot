@@ -53,7 +53,7 @@ module.exports.run = async (client, message, args) => {
                         .addField("Ticket sluiten?", "Je kan met `-sluit` dit ticket sluiten.")
                         .setTimestamp()
                         .setColor("#004b96")
-                        .setFooter('LowLands');
+                        .setFooter('Fivem Server');
 
                     channel2.send(ticketEmbed)
 
@@ -90,7 +90,7 @@ module.exports.run = async (client, message, args) => {
                     .addField("Ticket sluiten?", "Je kan met `-sluit` dit ticket sluiten.")
                     .setTimestamp()
                     .setColor("#004b96")
-                    .setFooter('LowLands');
+                    .setFooter('Fivem Server');
 
                     channel2.send(ticketEmbed3)
 
@@ -127,7 +127,7 @@ module.exports.run = async (client, message, args) => {
                         .addField("Ticket sluiten?", "Je kan met `-sluit` dit ticket sluiten.")
                         .setTimestamp()
                         .setColor("#004b96")
-                        .setFooter('LowLands');
+                        .setFooter('Fivem Server');
 
                     channel2.send(ticketEmbed2)
 

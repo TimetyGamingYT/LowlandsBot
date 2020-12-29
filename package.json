@@ -1,7 +1,7 @@
 {
   "name": "vhbot",
   "version": "1.0.0",
-  "description": "LowLands - discord.js bot",
+  "description": "Fivem Server - discord.js bot",
   "main": "index.js",
   "scripts": {
     "start":"node ./index.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Rhydium/VHBot.git"
   },
-  "author": "LowLands",
+  "author": "Fivem Server",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/Rhydium/VHBot/issues"

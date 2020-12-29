@@ -8,7 +8,7 @@ module.exports.run = async (client, message, args) => {
     .addField(`\`${config.prefix}botinfo\``, 'Laat informatie over de bot zien.')
     .addField(`\`${config.prefix}serverinfo\``, 'Laat informatie over de server zien.')
     .setColor("#004b96")
-    .setFooter("LowLands", client.user.displayAvatarURL())
+    .setFooter("Fivem Server", client.user.displayAvatarURL())
     .setTimestamp();
 
     message.channel.send(helpEmbed);

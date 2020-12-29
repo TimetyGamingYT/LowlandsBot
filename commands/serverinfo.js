@@ -5,7 +5,7 @@ module.exports.run = async (client, message, args) => {
     .setColor("#004b69")
     .addField("Naam:", message.guild.name, true)
     .addField("Aantal leden:", message.guild.memberCount, true)
-    .setFooter("LowLands", client.user.displayAvatarURL())
+    .setFooter("Fivem Server", client.user.displayAvatarURL())
     .setTimestamp();
 
     return message.channel.send(serverEmbed);

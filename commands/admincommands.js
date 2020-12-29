@@ -12,7 +12,7 @@ module.exports.run = async (client, message, args) => {
     .addField(`\`${config.prefix}unmute\``, 'Unmute iemand.')
     .addField(`\`${config.prefix}purge\``, 'Verwijder berichten.')
     .setColor("#004b96")
-    .setFooter("LowLands", client.user.displayAvatarURL())
+    .setFooter("Fivem Server", client.user.displayAvatarURL())
     .setTimestamp();
 
     message.channel.send(admincommandsEmbed);
